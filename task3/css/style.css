@@ -1,0 +1,78 @@
+/*change color of all to ( red )*/
+.all {
+    color: red;
+}
+/* change color of only 2 elements to (blue)*/
+#x {
+    color: blue;
+}
+/*change color of only 1 element to ( yellow )*/
+#only {
+    color: yellow;
+}
+/*change color of all to red,with 3 different ways*/
+/*first way*/
+.first
+ { 
+    color: red;
+}
+.fbutt {
+    color: red;
+}
+/*second way*/
+#second{
+    color: red;
+}
+#sbutt{
+    color: red;
+}
+/*thirs*/
+ .th > .third
+{
+ color: red;
+}
+#tbutt
+{
+    color: red;
+}
+/*using combinatory selectors*/
+/*style the first p in the section into ( blue ) */
+.fs > p
+{
+    color: blue;
+}
+/*style all p inside section into ( red )*/
+.ss p
+{
+    color: red;
+}
+/*style the first p after the section into ( yellow )*/
+.ts + p
+{
+    color: yellow;
+}
+/*- style all p after the section into ( green )*/
+#fs ~ p
+{
+    color: green;
+}
+/*change first letter into ( red ) */
+#fletter ::first-letter
+{
+    color: red;
+}
+/*change first line into ( blue ) */
+#fline ::first-line
+{
+    color: blue;
+}
+/*make h1 and style color to ( red )*/
+#re
+{ 
+    color: red;
+}
+/*Make hover to this h1 color to ( blue )*/
+#re:hover
+{
+    color: blue;
+}

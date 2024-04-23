@@ -1,0 +1,79 @@
+/*start of the first div*/
+h1{
+    color: salmon;
+}
+#se{
+    color: rgb(0, 174, 255);
+}
+#th{
+    color: rgba( 255 , 15 , 55 , 0.5 );
+}
+#fo{
+    color: #c1b2c3;
+}
+#fdiv{
+    background-color: rgb(255, 218, 253);
+}
+/*end of the first div*/
+/*start of the second div*/
+#sdiv{
+    height: 100vh;
+    background-image: url(../images/20.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+    /*end of the second div*/
+    /*with short hand*/
+#dd{
+    height: 100vh;
+    background: url(../images/30.jpg) no-repeat fixed center ;
+    background-size: cover;
+}
+/*end of short hand*/
+/*start of the two divs*/
+#do{
+    width: 1000px;
+    height: 50px;
+    padding: 50px 100px;
+   margin-bottom: 100px; 
+   border: 10px dotted black ;
+
+}
+#aa{
+    width: 500px;
+    height: 100px;
+    padding: 50px 100px;
+    border: 10px dashed royalblue;
+}
+/*circle*/
+#cir{
+    width:  300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid rosybrown;
+    margin: auto;
+}
+#pp{
+    margin: 60px;
+}
+/*last div*/
+#lst{
+    background-color: black;
+    color: blanchedalmond;
+    width: 500px;
+    height: 700px;
+    padding: 10px;
+    border-top: blue 15px outset;
+    border-left: 40px dotted coral;
+    border-right: green dashed 20px;
+    border-bottom: yellow double 20px;
+    
+}
+
+
+
+    
+
+

@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*navbar*/
+.navbar{
+    background-image: url(../css/images/back.jpg);
+    background-size: 100% 17vh;
+    height: 17vh;
+    overflow: hidden;
+}
+.navbar h1{
+    color: #fff;
+    font-family: 'Satisfy', cursive;
+    font-size: 70px;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-left: 150px;
+    float: left;
+}
+.navbar ul{
+    list-style: none;
+    overflow: hidden;
+    float: left;
+    padding: 10px;
+    padding-left: 350px;
+    padding-top: 40px;
+}
+.navbar ul li{
+    float: left;
+    padding-left: 10px;
+}
+.navbar ul a{
+    color: #fff;
+    text-decoration: none;
+}
+/*end of navbar*/
+/*second sec (candy)*/
+.candy{
+
+}
+.candy ul{
+    list-style: none;
+    font-size: 20px;
+    overflow: hidden;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.candy ul li{
+    float: left;
+    padding-left: 25px;
+}
+.candy .imgss{
+    overflow: hidden;
+    position: relative;
+}
+.candy ul a{
+    color:rgb(42, 163, 93);
+    text-decoration: none;
+}
+.candy .fd img{
+    width: 450px;
+    height: 400px;
+    float: left;
+    margin-right: 98px;
+}
+.candy .sd img{
+    width: 450px;
+    height: 400px;
+    float: left;
+}
+.candy .td img{
+    width: 450px;
+    height: 400px;
+    float: left;
+    
+    position: absolute;
+    right: 0px;
+}
+/*end of second section*/
+/*main section*/
+.third{
+    background-image: url(../css/images/back.jpg);
+    background-size: 100% 163vh;
+    height: 163vh;
+    margin-top: 30px;
+}
+.third .one{
+    overflow: hidden;
+}
+.third .one img{
+    width: 550px;
+    height: 250px;
+    float: left;
+    margin-top: 40px;
+}
+.third .one .c{
+    margin-left: 190px;
+    
+}
+.third .one .s{
+   margin-left: 770px;
+}
+.third .fl{
+    margin: 25px 190px;
+}
+/*feature products*/
+.third h2{
+    color: #fff;
+    font-family: 'Satisfy', cursive;
+    margin-top: 30px;
+    margin-left: 200px;
+    font-size: 35px;
+}
+.third .two{
+   position: relative;
+}
+.third p{
+   color: #fff;
+   text-transform: capitalize;
+}
+.third h4{
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    color: #fff;
+}
+.third img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #fff;
+}
+.third .oo{
+    position: absolute;
+    left: 200px;
+}
+.third .tt{
+    position: absolute;
+    left: 500px;
+}
+.third .ss{
+     position: absolute;
+     left: 800px;
+}
+.third .ff{
+     position: absolute;
+     left: 1100px;
+}
+.third .sl{
+    margin-top: 350px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+/*best seller*/
+.third .bestseller{
+    position: relative;
+}
+/*footer*/
+.footer{
+    overflow: hidden;
+}
+.footer ul{
+    font-family: 'Satisfy', cursive;
+    color: rgb(220, 20, 143);
+    font-size: 30px;
+    text-transform: capitalize;
+    list-style: none;
+    margin: 30px 300px;
+}
+.footer li{
+    float: left;
+    margin: 25px;
+}
+
+
+

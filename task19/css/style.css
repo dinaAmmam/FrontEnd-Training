@@ -1,0 +1,16 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+button{
+    display: flex;
+}
+#sim{
+    display: none;
+    width: 500px;
+    height: 500px;
+}
